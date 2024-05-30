@@ -1,0 +1,140 @@
+* {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+nav {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: rgb(199, 199, 199, 1.0) solid 1px;
+}
+
+.search-bar{
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: rgb(199, 199, 199, 1.0) solid 1px;	
+}
+
+.search-bar input{
+	border-bottom: rgb(199, 199, 199, 1.0) solid 1px;	
+	border-radius: 5px;	
+	width: 300px;
+	padding: 8px;
+	margin: 10px 5px 10px 20px;
+}
+
+button{
+	background-color: rgb(23.906, 77.861, 231.09);
+	color: white;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 8px;
+	margin: 10px 5px;
+}
+
+main {
+	display: flex;
+}
+
+article {
+	width: 50vw;
+	height: 70vh;
+}
+
+article.listings {
+	box-shadow: rgba(60,64,67,0.3) -2px 0 2px 0;
+	padding: 10px;
+}
+
+div.space {
+	margin: 80px;
+	padding: 80px;
+}
+
+.card-container {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	overflow-y: scroll;
+}
+
+.card {
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: rgba(0,0,0,0.4) 0 3px 8px;
+	width: 290px;
+	height: 235px;
+	margin: 5px;
+}
+
+.card .text-container {
+	padding: 5px;
+}
+
+.card h1,h2,h3,p {
+	margin: 1px;
+	padding: 1px;
+	color: black;
+}
+
+.property {
+	margin: 50px 100px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+	display: flex;
+	flex-direction: row;
+}
+
+h2.propName {
+	padding: 0;
+	margin: 0 !important;
+}
+
+.image {
+	width: 100%;
+}
+
+
+.property-images-container {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.property-images-container img {
+	width: 100%;
+	margin-bottom: 3px;
+}
+.property-info-container {
+	width: 30%;
+	padding: 30px;
+}
+.property-info-container h1 {
+	margin: 0 0 8px 0;
+}
+
+.property-info-container span {
+	border: solid 1px grey;
+	border-radius: 5px;
+	padding: 4px 10px;
+	margin: 5px 0;
+}
+
