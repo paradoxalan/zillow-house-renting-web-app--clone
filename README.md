@@ -4,6 +4,5 @@
 <h1>How to run</h1>
 
 <p>If you want to run this to see demo get in contact with me to setup the api keys to:
-hygraph.com
-maps.google.com</p>
+hygraph.com and maps.google.com</p>
 
